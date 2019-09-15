@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="363dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:inputType="textPersonName"
+        android:linksClickable="false"
+        android:onClick="r"
+        android:shadowColor="#0000"
+        android:text="Hola mundo"
+        android:textColorHighlight="#00B41D1F"
+        android:textColorLink="#00A51B1B" />
+
+    <Switch
+        android:id="@+id/boton"
+        android:layout_width="161dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Boton" />
+
+    <Button
+        android:id="@+id/copiartexto"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:text="COPIAR TEXTO" />
+
+    <TextView
+        android:id="@+id/hola"
+        android:layout_width="342dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:text="Hola mundo"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="338dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="343dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:text="User age = 62"
+        android:textColor="#050505"
+        android:textColorHint="#000000"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
